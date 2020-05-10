@@ -9,40 +9,96 @@
 
 ## Demo预览
 下面是Demo的一些界面
+
+作者：Fsn_soul
+链接：https://www.jianshu.com/p/5c1805c6f0ff
+来源：简书
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 ### 1. 主页
-![file-list](https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/首页.jpg)
+|主页|主页|
+|:-------|:-------|
+|![截图](https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/首页.jpg)  |![截图](https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/首页.jpg)|
+
 ### 2. 美遗
-![file-list](https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/美遗.jpg)
+|美遗|美遗|
+|:-------|:-------|
+|![截图](https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/美遗.jpg)|![截图](https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/美遗.jpg)|
+
 ### 3. 发现-文章
-![file-list](https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/发现-文章.jpg)
+|发现-文章|发现-文章|
+|:-------|:-------|
+|![截图](https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/发现-文章.jpg)|![截图](https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/发现-文章.jpg)|
+
 ### 4. 发现-视频
-![file-list](https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/发现-视频.jpg)
+|发现-视频|发现-视频|
+|:-------|:-------|
+|![截图](https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/发现-视频.jpg)|![截图](https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/发现-视频.jpg)|
+
 ### 5. 发现-传承人
-![file-list](https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/发现-传承人.jpg)
+|发现-传承人|发现-传承人|
+|:-------|:-------|
+|![截图](https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/发现-传承人.jpg)|![截图](https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/发现-传承人.jpg)|
+
 ### 6. 发现-文章详情
-![file-list](https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/发现-文章详情.jpg)
+|发现-文章详情|发现-文章详情|
+|:-------|:-------|
+|![截图](https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/发现-文章详情.jpg)|![截图](https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/发现-文章详情.jpg)|
+
 ### 7. 发现-视频详情
-![file-list](https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/发现-视频详情.jpg)
+|发现-视频详情|发现-视频详情|
+|:-------|:-------|
+|![截图](https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/发现-视频详情.jpg)|![截图](https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/发现-视频详情.jpg)|
+
 ### 8. 发现-传承人详情
-![file-list](https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/发现-传承人详情.jpg)
+|发现-传承人详情|发现-传承人详情|
+|:-------|:-------|
+|![截图](https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/发现-传承人详情.jpg)|![截图](https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/发现-传承人详情.jpg)|
+
 ### 9. 我的资料
-![file-list](https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/我的资料.jpg)
+|我的资料|我的资料|
+|:-------|:-------|
+|![截图](https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/我的资料.jpg)|![截图](https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/我的资料.jpg)|
+
 ### 10. 设置
-![file-list](https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/设置.jpg)
+|设置|设置|
+|:-------|:-------|
+|![截图](https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/设置.jpg)|![截图](https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/设置.jpg)|
+
 ### 11. 消息
-![file-list](https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/消息.jpg)
+|消息|消息|
+|:-------|:-------|
+|![截图](https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/消息.jpg)|![截图](https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/消息.jpg)|
+
 ### 12. 登录
-![file-list](https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/登录.jpg)
+|登录|登录|
+|:-------|:-------|
+|![截图](https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/登录.jpg)|![截图](https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/登录.jpg)|
+
 ### 13. 注册
-![file-list](https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/注册.jpg)
+|注册|注册|
+|:-------|:-------|
+|![截图](https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/注册.jpg)|![截图](https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/注册.jpg)|
+
 ### 14. 粉丝关注
-![file-list](https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/粉丝关注.jpg)
+|粉丝关注|粉丝关注|
+|:-------|:-------|
+|![截图](https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/粉丝关注.jpg)|![截图](https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/粉丝关注.jpg)|
+
 ### 15. 收藏
-![file-list](https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/收藏.jpg)
+|收藏|收藏|
+|:-------|:-------|
+|![截图](https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/收藏.jpg)|![截图](https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/收藏.jpg)|
+
 ### 16. 定制
-![file-list](https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/定制.jpg)
+|定制|定制|
+|:-------|:-------|
+|![截图](https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/定制.jpg)|![截图](https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/定制.jpg)|
+
 ### 17. 动态
-![file-list](https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/动态.jpg)
+|动态|动态|
+|:-------|:-------|
+|![截图](https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/动态.jpg)|![截图](https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/动态.jpg)|
+
 ......
 
 ## 软件架构
