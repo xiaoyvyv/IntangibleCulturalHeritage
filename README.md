@@ -8,7 +8,7 @@
 非物质文化遗产的保护与传承，需要与移动互联平台的深度结合。永新华韵文化发展有限公司成立以来，始终致力于将移动互联网技术与非遗保护、传承高度结合，以大数据、区块链等时代最新锐的科技手段，将非遗保护与传承的工作落到实处。
 
 ## DemoAPK下载
-> (非遗文化中心)[https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/非遗文化中心.apk]
+> [非遗文化中心](https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/非遗文化中心.apk)
 
 ## Demo预览
 下面是Demo的一些界面
