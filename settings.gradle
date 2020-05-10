@@ -1,0 +1,3 @@
+include ':app', ':framework', ':cultureengine'
+include ':utilcode'
+rootProject.name='Intangible cultural heritage'

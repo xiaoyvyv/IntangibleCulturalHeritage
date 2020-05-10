@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="5dp"
+    android:layout_marginTop="2.5dp"
+    android:layout_marginEnd="5dp"
+    android:layout_marginBottom="2.5dp"
+    app:cardCornerRadius="5dp">
+
+    <LinearLayout
+        android:id="@+id/main_found_video_item_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.dueeeke.videoplayer.player.VideoView
+                android:id="@+id/main_found_video_item_av"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                app:screenScaleType="type_16_9" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/main_found_video_item_times"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|top"
+                android:layout_margin="8dp"
+                android:alpha="0.6"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="253次播放"
+                android:textColor="?attr/colorTextLight"
+                android:textSize="12sp" />
+
+        </FrameLayout>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/main_found_video_item_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|center_vertical"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="5dp"
+            android:alpha="0.7"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="最美非物质文化遗产"
+            android:textColor="?attr/colorText"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="5dp"
+            android:paddingBottom="10dp">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/main_found_video_item_header"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/pic_main_item"
+                app:civ_border_color="?attr/colorTextLight"
+                app:civ_border_width="1dp" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/main_found_video_item_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:alpha="0.7"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="李四"
+                android:textColor="?attr/colorText"
+                android:textSize="12sp" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/main_found_video_item_dislike"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="5dp"
+                android:src="@drawable/ic_dissatisfied"
+                app:tint="?attr/colorIconItem" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/main_found_video_item_dislike_count"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:alpha="0.7"
+                android:gravity="start"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:text="33"
+                android:textColor="?attr/colorText"
+                android:textSize="12sp" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/main_found_video_item_like"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="5dp"
+                android:src="@drawable/ic_satisfied"
+                app:tint="?attr/colorIconItem" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/main_found_video_item_like_count"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:alpha="0.7"
+                android:gravity="start"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:text="33"
+                android:textColor="?attr/colorText"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

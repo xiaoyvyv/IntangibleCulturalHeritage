@@ -1,0 +1,183 @@
+<resources>
+    <!-- 基础主题 -->
+    <style name="App" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <!-- 控件选中时的颜色,默认使用 colorAccent -->
+        <item name="android:colorControlActivated">@color/colorAccent</item>
+    </style>
+
+    <!-- 默认主题 -->
+    <style name="App.Default" parent="App">
+        <!-- 主色 -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!-- 状态栏颜色 -->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <!-- 主题渐变色起色 -->
+        <item name="colorPrimaryLight">@color/colorPrimaryLight</item>
+        <!-- 强调色 -->
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- 标题栏颜色 -->
+        <item name="colorToolbar">@color/colorToolbar</item>
+        <!-- 标题栏文字颜色 -->
+        <item name="colorToolbarText">@color/colorToolbarText</item>
+        <!-- 标题栏图标颜色 -->
+        <item name="colorToolbarIcon">@color/colorToolbarIcon</item>
+        <!-- 图标颜色 -->
+        <item name="colorIcon">@color/colorIcon</item>
+        <!-- 条目图标颜色 -->
+        <item name="colorIconItem">@color/colorIconItem</item>
+        <!-- 按钮颜色 -->
+        <item name="colorButton">@color/colorButton</item>
+        <!-- 背景颜色 -->
+        <item name="colorLayout">@color/colorLayout</item>
+        <!-- CardView 背景颜色 -->
+        <item name="colorCardLayout">@color/colorCardLayout</item>
+        <!-- 文本颜色 -->
+        <item name="colorText">@color/colorText</item>
+        <!-- 文本颜色（淡） -->
+        <item name="colorTextLight">@color/colorTextLight</item>
+        <!-- 文本提示颜色 -->
+        <item name="colorTextHint">@color/colorTextHint</item>
+        <!-- 对话框背景颜色 -->
+        <item name="colorDialogLayout">@color/colorDialogLayout</item>
+        <!-- 分割线 -->
+        <item name="colorDivider">@color/colorDivider</item>
+
+        <!-- Android 默认背景色 -->
+        <item name="android:windowBackground">@color/windowBackground</item>
+        <!-- Android 默认文字色 -->
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textColorPrimary">@color/colorText</item>
+    </style>
+
+
+    <!--高端黒（黑暗模式）-->
+    <style name="AppTheme_GaoDuanHei" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- 主色 -->
+        <item name="colorPrimary">@color/colorPrimaryNight</item>
+        <!-- 状态栏颜色 -->
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkNight</item>
+        <!-- 主题渐变色起色 -->
+        <item name="colorPrimaryLight">@color/colorPrimaryLightNight</item>
+        <!-- 强调色 -->
+        <item name="colorAccent">@color/colorAccentNight</item>
+        <!-- 标题栏颜色 -->
+        <item name="colorToolbar">@color/colorToolbarNight</item>
+        <!-- 标题栏文字颜色 -->
+        <item name="colorToolbarText">@color/colorToolbarTextNight</item>
+        <!-- 标题栏图标颜色 -->
+        <item name="colorToolbarIcon">@color/colorToolbarIconNight</item>
+        <!-- 图标颜色 -->
+        <item name="colorIcon">@color/colorIconNight</item>
+        <!-- 条目图标颜色 -->
+        <item name="colorIconItem">@color/colorIconItemNight</item>
+        <!-- 按钮颜色 -->
+        <item name="colorButton">@color/colorButtonNight</item>
+        <!-- 背景颜色 -->
+        <item name="colorLayout">@color/colorLayoutNight</item>
+        <!-- 背景颜色（淡） -->
+        <item name="colorCardLayout">@color/colorCardLayoutNight</item>
+        <!-- 文本颜色 -->
+        <item name="colorText">@color/colorTextNight</item>
+        <!-- 文本颜色（淡） -->
+        <item name="colorTextLight">@color/colorTextLightNight</item>
+        <!-- 文本提示颜色 -->
+        <item name="colorTextHint">@color/colorTextHintNight</item>
+        <!-- 对话框背景颜色 -->
+        <item name="colorDialogLayout">@color/colorDialogLayoutNight</item>
+        <!-- 分割线 -->
+        <item name="colorDivider">@color/colorDividerNight</item>
+
+        <!-- Android 默认背景色 -->
+        <item name="android:windowBackground">@color/windowBackgroundNight</item>
+        <!-- Android 默认文字色 -->
+        <item name="android:textColor">@color/colorTextNight</item>
+        <item name="android:textColorPrimary">@color/colorTextNight</item>
+
+        <!-- 黑暗对话框 -->
+        <item name="android:alertDialogTheme">@style/App.DialogNight</item>
+        <item name="android:popupMenuStyle">@style/App.DialogNight</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Dark</item>
+    </style>
+
+
+    <!-- Toolbar 自定义主题 -->
+    <style name="App.DefaultToolbar">
+        <item name="android:id">@id/toolbar</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/heightToolbar</item>
+        <item name="android:background">@drawable/bg_toolbar</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="titleTextAppearance">@style/App.DefaultToolbarTitle</item>
+        <item name="subtitleTextAppearance">@style/App.DefaultToolbarSubTitle</item>
+    </style>
+
+    <!-- Toolbar 自定义主标题主题 -->
+    <style name="App.DefaultToolbarTitle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">?attr/colorToolbarText</item>
+    </style>
+
+    <!-- Toolbar 自定义副标题主题 -->
+    <style name="App.DefaultToolbarSubTitle">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?attr/colorToolbarText</item>
+    </style>
+
+    <!-- BarLayout 自定义主题 -->
+    <style name="App.DefaultBarLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/bg_toolbar</item>
+        <item name="android:theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+<!--        <item name="elevation">0dp</item>-->
+    </style>
+
+    <!-- BottomNavigationView 自定义主题 -->
+    <style name="App.BottomNavigationViewActive">
+        <item name="android:textColor">?colorPrimary</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- 黑暗对话框 -->
+    <style name="App.DialogNight" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:windowBackground">?attr/colorDialogLayout</item>
+        <item name="android:popupBackground">?attr/colorDialogLayout</item>
+    </style>
+
+
+    <style name="App.AlertDialog">
+        <!-- alertDialog窗口背景色 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--dialog是否有边框-->
+        <item name="android:windowFrame">@null</item>
+        <!--dialog是否有标题-->
+        <item name="android:windowNoTitle">true</item>
+        <!--是否浮现在activity之上-->
+        <item name="android:windowIsFloating">true</item>
+        <!--是否半透明-->
+        <item name="android:windowIsTranslucent">true</item>
+        <!--是否有遮盖(eg.Activity的闪屏页)-->
+        <item name="android:windowContentOverlay">@null</item>
+        <!--背景是否模糊显示-->
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0</item>
+        <item name="android:windowFullscreen">false</item>
+    </style>
+
+
+    <style name="App.ActivityTranslucent">
+        <item name="android:background">@color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:statusBarColor">@color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+</resources>

@@ -1,0 +1,16 @@
+<resources>
+    <!-- 标题栏高度 -->
+    <dimen name="heightToolbar">45dp</dimen>
+    <!-- 标题栏阴影高度 -->
+    <dimen name="elevation">5dp</dimen>
+    <!-- 对话框宽度 -->
+    <dimen name="alert_width">300dp</dimen>
+
+    <dimen name="card_radius">5dp</dimen>
+    <dimen name="tab_height">40dp</dimen>
+    <dimen name="note_icon_margin">20dp</dimen>
+    <dimen name="subject_radio_size">30dp</dimen>
+
+    <dimen name="common_circle_width">3dp</dimen>
+    <dimen name="progress_circle_radius">34dp</dimen>
+</resources>

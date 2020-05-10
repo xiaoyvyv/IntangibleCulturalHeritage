@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.xiaoyv.framework">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <application>
+        <activity
+            android:name=".main.MainActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity android:name=".sign.login.LoginActivity" />
+        <activity android:name=".sign.register.RegisterActivity" />
+        <activity android:name=".splash.SplashActivity" />
+        <activity android:name=".setting.SettingActivity" />
+        <activity android:name=".main.news.page.details.MainNewsPageDetailsActivity" />
+        <activity
+            android:name=".main.found.hot.details.MainFoundHotDetailsActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible|adjustResize" />
+        <activity android:name=".main.found.page.details.MainFoundPageDetailsActivity" />
+        <activity
+            android:name=".main.found.video.details.MainFoundVideoDetailsActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity android:name=".main.mine.message.MainMineMessageActivity" />
+        <activity android:name=".main.mine.account.MainMineAccountActivity" />
+        <activity android:name=".main.mine.attention.MainMineAttentionActivity" />
+        <activity android:name=".main.mine.collection.MainMineCollectionActivity" />
+        <activity android:name=".main.mine.dynamic.MainMineDynamicActivity" />
+        <activity android:name=".main.mine.fans.MainMineFansActivity" />
+        <activity android:name=".main.mine.history.MainMineHistoryActivity" />
+        <activity
+            android:name=".main.mine.make.MainMineMakeActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible|adjustResize" />
+        <activity android:name=".main.mine.money.MainMineMoneyActivity" />
+        <activity android:name=".main.mine.works.MainMineWorksActivity" />
+    </application>
+
+</manifest>

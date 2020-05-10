@@ -1,0 +1,25 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.2"
+
+
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 29
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.google.android.material:material:1.1.0'
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    api 'androidx.annotation:annotation:1.1.0'
+    api 'androidx.core:core:1.2.0'
+    // 网络相关库
+    api 'com.lzy.net:okgo:3.0.4'
+    // Json解析生成库
+    api 'com.google.code.gson:gson:2.8.6'
+
+}

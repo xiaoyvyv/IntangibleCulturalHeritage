@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="SmallSp">
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_login" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_login_top" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.7"
+        android:orientation="vertical"
+        android:paddingTop="80dp"
+        android:paddingBottom="10dp"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            app:cardCornerRadius="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginBottom="10dp"
+                    android:alpha="0.6"
+                    android:padding="5dp"
+                    android:text="@string/app_name"
+                    android:textColor="?attr/colorText"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="40dp"
+                    android:alpha="0.6"
+                    android:padding="5dp"
+                    android:text="@string/app_desc"
+                    android:textColor="?attr/colorText"
+                    android:textSize="14sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/login_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="10dp"
+                    android:alpha="0.7"
+                    android:background="@drawable/bg_login_edit"
+                    android:digits="1234567890"
+                    android:gravity="center_vertical"
+                    android:hint="@string/login_input_phone"
+                    android:inputType="number"
+                    android:maxLength="11"
+                    android:maxLines="1"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:singleLine="true"
+                    android:textSize="14sp" />
+
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/login_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="10dp"
+                    android:alpha="0.7"
+                    android:background="@drawable/bg_login_edit"
+                    android:gravity="center_vertical"
+                    android:hint="@string/login_input_password"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:singleLine="true"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/login_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginEnd="8dp"
+                    android:alpha="0.7"
+                    android:backgroundTint="#FF8099"
+                    android:text="@string/login_btn"
+                    android:textColor="?attr/colorTextLight"
+                    android:textSize="14sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/login_register"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:alpha="0.7"
+                        android:background="?attr/selectableItemBackground"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:onClick="onLoginClick"
+                        android:padding="5dp"
+                        android:text="@string/login_register"
+                        android:textColor="?attr/colorText" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/login_forget"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:alpha="0.7"
+                        android:background="?attr/selectableItemBackground"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:onClick="onLoginClick"
+                        android:padding="5dp"
+                        android:text="@string/login_forget"
+                        android:textColor="?attr/colorText" />
+
+                </LinearLayout>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="40dp"
+                    android:alpha="0.6"
+                    android:padding="5dp"
+                    android:text="@string/login_other"
+                    android:textColor="?attr/colorText" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/login_qq"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:onClick="onLoginClick"
+                        android:padding="8dp"
+                        android:src="@drawable/ic_login_qq"
+                        app:tint="?attr/colorIcon" />
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/login_zone"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginEnd="30dp"
+                        android:onClick="onLoginClick"
+                        android:padding="8dp"
+                        android:src="@drawable/ic_login_zone"
+                        app:tint="?attr/colorIcon" />
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/login_wechat"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginEnd="30dp"
+                        android:onClick="onLoginClick"
+                        android:padding="8dp"
+                        android:src="@drawable/ic_login_wechat"
+                        app:tint="?attr/colorIcon" />
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/login_weibo"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:onClick="onLoginClick"
+                        android:padding="8dp"
+                        android:src="@drawable/ic_login_weibo"
+                        app:tint="?attr/colorIcon" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

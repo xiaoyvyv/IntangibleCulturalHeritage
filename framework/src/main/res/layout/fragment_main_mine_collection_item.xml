@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:layout_marginStart="5dp"
+    android:layout_marginTop="2.5dp"
+    android:layout_marginEnd="5dp"
+    android:layout_marginBottom="2.5dp"
+    app:cardCornerRadius="5dp">
+
+    <LinearLayout
+        android:id="@+id/main_mine_collection_item_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/main_mine_collection_item_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:alpha="0.7"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="最美非物质文化遗产"
+                android:textColor="?attr/colorText"
+                android:textSize="16sp" />
+
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/main_mine_collection_item_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/main_mine_collection_item_title"
+                android:layout_marginStart="10dp"
+                android:alpha="0.7"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="李四"
+                android:textColor="?attr/colorText"
+                android:textSize="13sp" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/main_mine_collection_item_times"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/main_mine_collection_item_title"
+                android:layout_toEndOf="@+id/main_mine_collection_item_name"
+                android:alpha="0.7"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:text="阅读量：3443次"
+                android:textColor="?attr/colorText"
+                android:textSize="13sp" />
+
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/main_mine_collection_item_kind"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:alpha="0.7"
+                android:padding="10dp"
+                android:text="来自：精选文章"
+                android:textColor="?attr/colorText"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/main_mine_collection_item_image"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/pic_main_item" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

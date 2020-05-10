@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_mine_dynamic_item_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/main_mine_dynamic_item_header"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/pic_main_item"
+            app:civ_border_color="?attr/colorTextLight"
+            app:civ_border_width="1dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@+id/main_mine_dynamic_item_more"
+            android:layout_toEndOf="@+id/main_mine_dynamic_item_header"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/main_mine_dynamic_item_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="李四"
+                android:textColor="?attr/colorText"
+                android:textSize="14sp" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/main_mine_dynamic_item_item_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="2012-12-23 12:45:21"
+                android:textColor="?attr/colorText"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/main_mine_dynamic_item_more"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/ic_more"
+            android:tint="?attr/colorIconItem" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:background="?attr/colorDivider" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/main_mine_dynamic_item_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alpha="0.7"
+        android:lineSpacingExtra="5dp"
+        android:padding="10dp"
+        android:text="溢满阳光的午后，我坐在带着自然清新的木椅上，看着一本精美的杂志。一篇特别的文章吸引了我——《你是大大世界里的小小女孩》。好长的名字，我想象着故事的内容，慢慢读了起来。"
+        android:textColor="?attr/colorText"
+        android:textSize="16sp" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/main_mine_dynamic_item_image"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:padding="10dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/pic_main_item" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:paddingBottom="10dp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="5dp"
+            android:src="@drawable/ic_comment"
+            app:tint="?attr/colorIconItem" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/main_mine_dynamic_item_comment_count"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:alpha="0.7"
+            android:gravity="start"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:text="33"
+            android:textColor="?attr/colorText"
+            android:textSize="12sp" />
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="5dp"
+            android:src="@drawable/ic_dissatisfied"
+            app:tint="?attr/colorIconItem" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/main_mine_dynamic_item_dislike_count"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:alpha="0.7"
+            android:gravity="start"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:text="33"
+            android:textColor="?attr/colorText"
+            android:textSize="12sp" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="5dp"
+            android:src="@drawable/ic_satisfied"
+            app:tint="?attr/colorIconItem" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/main_mine_dynamic_item_like_count"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:alpha="0.7"
+            android:gravity="start"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:text="33"
+            android:textColor="?attr/colorText"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?attr/colorDivider" />
+</LinearLayout>

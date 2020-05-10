@@ -1,0 +1,156 @@
+<resources>
+    <string name="adapter_empty_tip">暂无数据ԅ(¯﹃¯ԅ)</string>
+    <string name="adapter_loading">正在加载中....</string>
+    <string name="adapter_load_failed">加载失败，请点我重试</string>
+    <string name="adapter_load_end">没有更多数据</string>
+
+    <string name="app_desc">发现最美非遗文化</string>
+
+    <string name="title_home">非遗文化研究中心</string>
+    <string name="title_login">非遗用户登录</string>
+    <string name="title_setting">设置</string>
+    <string name="title_found_hot">精选文章</string>
+    <string name="title_found_video">精选视频</string>
+    <string name="title_found_page">非遗传承</string>
+    <string name="title_register">非遗新用户注册</string>
+    <string name="title_mine_message">我的消息</string>
+    <string name="title_mine_account">我的资料</string>
+    <string name="title_mine_fans">我的粉丝</string>
+    <string name="title_mine_attention">我的关注</string>
+    <string name="title_mine_collection">我的收藏</string>
+    <string name="title_mine_history">浏览历史</string>
+    <string name="title_mine_dynamic">我的动态</string>
+
+
+    <string name="main_bottom_home">首页</string>
+    <string name="main_bottom_news">美遗</string>
+    <string name="main_bottom_found">发现</string>
+    <string name="main_bottom_mine">我的</string>
+
+    <string name="main_home_word">文字</string>
+    <string name="main_home_dance">舞蹈</string>
+    <string name="main_home_song">曲艺</string>
+    <string name="main_home_art">美术</string>
+    <string name="main_home_medicine">医药</string>
+    <string name="main_home_music">音乐</string>
+    <string name="main_home_drama">戏剧</string>
+    <string name="main_home_acrobatics">杂技</string>
+    <string name="main_home_skill">技艺</string>
+    <string name="main_home_folklore">民俗</string>
+    <string name="main_home_recommend">非遗传承人推荐</string>
+    <string name="main_home_featured">非遗精选</string>
+    <string name="main_home_artistry">非遗技艺</string>
+    <string name="main_home_more">更多>></string>
+
+
+    <string name="main_found_inherited">非遗传承</string>
+    <string name="main_found_search">寻找最美非遗</string>
+    <string name="main_found_attention">关注</string>
+
+    <string name="main_found_hot">热门文章</string>
+    <string name="main_found_hot_details_share">分享文章</string>
+    <string name="main_found_hot_details_comment">最新评论</string>
+    <string name="main_found_hot_details_comment_hint">说点什么吧</string>
+    <string name="main_found_hot_details_send">发送</string>
+
+    <string name="main_found_video">精选视频</string>
+    <string name="main_found_video_details_comment">最新评论</string>
+    <string name="main_found_video_details_guess">猜你喜欢</string>
+
+    <string name="main_found_page_attention_ed">已关注</string>
+    <string name="main_found_page_attention">关注</string>
+    <string name="main_found_page_details_works">Ta的作品集</string>
+    <string name="main_found_page_details_summary">简介</string>
+
+    <string name="main_mine_attention">关注</string>
+    <string name="main_mine_attention_no_attention">取消关注</string>
+    <string name="main_mine_fans">粉丝</string>
+    <string name="main_mine_fans_attention_ta">关注</string>
+    <string name="main_mine_fans_attention_each">互相关注</string>
+    <string name="main_mine_dynamic">动态</string>
+    <string name="main_mine_collection">我的收藏</string>
+    <string name="main_mine_non_legacy">我的非遗</string>
+    <string name="main_mine_make">我要定制</string>
+    <string name="main_mine_account">账户中心</string>
+    <string name="main_mine_history">浏览历史</string>
+    <string name="main_mine_contact">联系我们</string>
+    <string name="main_mine_share">分享给朋友</string>
+    <string name="main_mine_share_app">分享了：吴兰玲的毕业设计App示例</string>
+    <string name="main_mine_message">我的消息</string>
+    <string name="main_mine_message_notice">通知</string>
+    <string name="main_mine_message_comment">评论</string>
+    <string name="main_mine_message_chat">私聊</string>
+
+    <string name="login_input_password">请输入密码</string>
+    <string name="login_input_password_conf">请确认密码</string>
+    <string name="login_input_phone">请输入手机号</string>
+    <string name="login_btn">登录</string>
+    <string name="login_register">注册用户</string>
+    <string name="login_forget">忘记密码</string>
+    <string name="login_other">-----第三方登录-----</string>
+    <string name="login_success">登录成功</string>
+    <string name="login_logging">登录中，请稍后</string>
+
+    <string name="register_btn">注册</string>
+    <string name="register_check">已阅读并同意《非遗中心服务条款》</string>
+    <string name="register_success">注册成功</string>
+    <string name="register_rule">请阅读并同意《服务条款》</string>
+
+    <string name="setting_change_password">修改密码</string>
+    <string name="setting_secrecy">隐私设置</string>
+    <string name="setting_clear">清理缓存</string>
+    <string name="setting_like">给个好评</string>
+    <string name="setting_update">检查更新</string>
+    <string name="setting_logout">退出登录</string>
+    <string name="setting_logout_success">注销成功</string>
+    <string name="setting_clean_cache_success">缓存已经清空</string>
+    <string name="setting_like_success">好评成功</string>
+    <string name="setting_update_new">已经是最新版本</string>
+
+    <string name="tips_like">已送出喜欢</string>
+    <string name="tips_dislike">已送出讨厌</string>
+    <string name="tips_double_exit">再按一次返回键退出</string>
+    <string name="tips_no_attention_success">取消关注成功</string>
+    <string name="tips_attention_success">关注用户成功</string>
+    <string name="tips_delete_collection_success">收藏内容删除成功</string>
+    <string name="tips_delete_history_success">该条浏览历史已删除</string>
+    <string name="tips_delete_dynamic_success">动态删除成功</string>
+
+
+    <string name="dialog_no">取消</string>
+    <string name="dialog_yes">确定</string>
+    <string name="dialog_logout">用户注销</string>
+    <string name="dialog_is_logout">是否退出登录？</string>
+    <string name="dialog_attention">关注Ta</string>
+    <string name="dialog_is_attention">是否关注该用户？</string>
+    <string name="dialog_no_attention">取消关注</string>
+    <string name="dialog_is_no_attention">是否取消关注该用户？</string>
+    <string name="dialog_delete_collection">删除收藏</string>
+    <string name="dialog_is_delete_collection">是否删除该收藏内容？</string>
+    <string name="dialog_delete_history">删除浏览历史</string>
+    <string name="dialog_is_delete_history">是否删除该条浏览历史？</string>
+    <string name="dialog_delete_dynamic">删除动态</string>
+    <string name="dialog_is_delete_dynamic">是否删除该条动态？</string>
+    <string name="title_account">我的资料</string>
+    <string name="main_mine_account_header">头像</string>
+    <string name="main_mine_account_id">用户ID</string>
+    <string name="main_mine_account_name">昵称</string>
+    <string name="main_mine_account_sex">性别</string>
+    <string name="main_mine_account_age">年龄</string>
+    <string name="main_mine_account_phone">手机号码</string>
+    <string name="main_mine_account_work">工作单位</string>
+    <string name="main_mine_account_email">绑定邮箱</string>
+    <string name="main_mine_account_card">证件类型</string>
+    <string name="main_mine_account_desc">签名</string>
+    <string name="title_mine_money">账户中心</string>
+    <string name="title_make">定制手工品</string>
+    <string name="main_found_hot_details_buy">定制</string>
+    <string name="title_mine_works">我的非遗</string>
+    <string name="main_news_page_details_share">分享该文章</string>
+    <string name="main_news_page_details_comment">最新评论</string>
+    <string name="main_news_page_details_comment_hint">说点什么吧</string>
+    <string name="main_news_page_details_send">发表</string>
+    <string name="title_news_page">非遗详情</string>
+
+
+</resources>
