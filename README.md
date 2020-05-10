@@ -12,6 +12,9 @@
 
 > 注意：Demo所有数据均是本地模拟数据，此App留出了数据接口可以自行修改library:cultureengine
 
+## 源码下载
+> [非遗文化中心App 源码下载](https://github.com/xiaoyvyv/IntangibleCulturalHeritage/archive/v1.0.zip)
+
 ## Demo预览
 下面是Demo的一些界面
 
