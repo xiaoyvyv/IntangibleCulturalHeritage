@@ -9,6 +9,7 @@
 
 ## DemoAPK下载
 > [非遗文化中心](https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/非遗文化中心.apk)
+> Demo所有数据均是本地模拟数据，此App留出了数据接口可以自行修改
 
 ## Demo预览
 下面是Demo的一些界面
