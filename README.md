@@ -10,37 +10,39 @@
 ## Demo预览
 下面是Demo的一些界面
 ### 1. 主页
-![file-list](https://www.zybuluo.com/static/img/file-list.png)
+![file-list](https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/首页.jpg)
 ### 2. 美遗
-![file-list](https://www.zybuluo.com/static/img/file-list.png)
+![file-list](https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/美遗.jpg)
 ### 3. 发现-文章
-![file-list](https://www.zybuluo.com/static/img/file-list.png)
+![file-list](https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/发现-文章.jpg)
 ### 4. 发现-视频
-![file-list](https://www.zybuluo.com/static/img/file-list.png)
+![file-list](https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/发现-视频.jpg)
 ### 5. 发现-传承人
-![file-list](https://www.zybuluo.com/static/img/file-list.png)
+![file-list](https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/发现-传承人.jpg)
 ### 6. 发现-文章详情
-![file-list](https://www.zybuluo.com/static/img/file-list.png)
+![file-list](https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/发现-文章详情.jpg)
 ### 7. 发现-视频详情
-![file-list](https://www.zybuluo.com/static/img/file-list.png)
+![file-list](https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/发现-视频详情.jpg)
 ### 8. 发现-传承人详情
-![file-list](https://www.zybuluo.com/static/img/file-list.png)
+![file-list](https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/发现-传承人详情.jpg)
 ### 9. 我的资料
-![file-list](https://www.zybuluo.com/static/img/file-list.png)
+![file-list](https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/我的资料.jpg)
 ### 10. 设置
-![file-list](https://www.zybuluo.com/static/img/file-list.png)
+![file-list](https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/设置.jpg)
 ### 11. 消息
-![file-list](https://www.zybuluo.com/static/img/file-list.png)
+![file-list](https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/消息.jpg)
 ### 12. 登录
-![file-list](https://www.zybuluo.com/static/img/file-list.png)
+![file-list](https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/登录.jpg)
 ### 13. 注册
-![file-list](https://www.zybuluo.com/static/img/file-list.png)
+![file-list](https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/注册.jpg)
 ### 14. 粉丝关注
-![file-list](https://www.zybuluo.com/static/img/file-list.png)
+![file-list](https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/粉丝关注.jpg)
 ### 15. 收藏
-![file-list](https://www.zybuluo.com/static/img/file-list.png)
+![file-list](https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/收藏.jpg)
 ### 16. 定制
-![file-list](https://www.zybuluo.com/static/img/file-list.png)
+![file-list](https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/定制.jpg)
+### 17. 动态
+![file-list](https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/动态.jpg)
 ......
 
 ## 软件架构
