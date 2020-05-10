@@ -6,8 +6,6 @@
 ------
  
 非物质文化遗产的保护与传承，需要与移动互联平台的深度结合。永新华韵文化发展有限公司成立以来，始终致力于将移动互联网技术与非遗保护、传承高度结合，以大数据、区块链等时代最新锐的科技手段，将非遗保护与传承的工作落到实处。
-> * 整理非遗作品，学习非遗文化
-> * 发布非遗文章，视频，传承工艺
 
 ## Demo预览
 下面是Demo的一些界面
@@ -15,24 +13,35 @@
 ![file-list](https://www.zybuluo.com/static/img/file-list.png)
 ### 2. 美遗
 ![file-list](https://www.zybuluo.com/static/img/file-list.png)
-### 3. 发现
+### 3. 发现-文章
 ![file-list](https://www.zybuluo.com/static/img/file-list.png)
-### 4. 我的
+### 4. 发现-视频
 ![file-list](https://www.zybuluo.com/static/img/file-list.png)
-### 5. 发现-文章
+### 5. 发现-传承人
 ![file-list](https://www.zybuluo.com/static/img/file-list.png)
-### 6. 发现-视频
+### 6. 发现-文章详情
 ![file-list](https://www.zybuluo.com/static/img/file-list.png)
-### 7. 发现-传承人
+### 7. 发现-视频详情
 ![file-list](https://www.zybuluo.com/static/img/file-list.png)
-### 8. 高效绘制
+### 8. 发现-传承人详情
 ![file-list](https://www.zybuluo.com/static/img/file-list.png)
-### 9. 绘制表格
+### 9. 我的资料
 ![file-list](https://www.zybuluo.com/static/img/file-list.png)
-### 10. 更详细语法说明
+### 10. 设置
 ![file-list](https://www.zybuluo.com/static/img/file-list.png)
-### 11. 标签、分类和搜索
+### 11. 消息
 ![file-list](https://www.zybuluo.com/static/img/file-list.png)
+### 12. 登录
+![file-list](https://www.zybuluo.com/static/img/file-list.png)
+### 13. 注册
+![file-list](https://www.zybuluo.com/static/img/file-list.png)
+### 14. 粉丝关注
+![file-list](https://www.zybuluo.com/static/img/file-list.png)
+### 15. 收藏
+![file-list](https://www.zybuluo.com/static/img/file-list.png)
+### 16. 定制
+![file-list](https://www.zybuluo.com/static/img/file-list.png)
+......
 
 ## 软件架构
 采用了Google推荐的TODO-MVP架构
