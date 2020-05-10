@@ -1,6 +1,6 @@
 # IntangibleCulturalHeritage
 
-### `毕业设计，非遗文化中心App交互设计Demo`
+### 毕业设计，非遗文化中心App交互设计Demo
 
 # 欢迎查阅 非遗文化研究中心App 项目源码
  
