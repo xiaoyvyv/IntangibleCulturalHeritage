@@ -22,7 +22,7 @@
 ### 1. 主页
 |主页|主页|
 |:-------|:-------|
-|![截图](https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/首页.jpg)  |![截图](https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/首页.jpg)|
+|![截图](app_image/首页.jpg)  |![截图](https://raw.githubusercontent.com/xiaoyvyv/IntangibleCulturalHeritage/master/app_image/首页.jpg)|
 
 ### 2. 美遗
 |美遗|美遗|
